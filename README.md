@@ -4,7 +4,7 @@ icon: hand-wave
 
 # Welcome
 
-### Welcome to the Syncly Docs
+### Welcome to the Syncly Documentation
 
 Welcome to the official documentation for [**Syncly**](links/community.md), your go-to calendar management solution for seamless scheduling and time organization.&#x20;
 
