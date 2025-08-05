@@ -1,5 +1,5 @@
 ---
-icon: people
+icon: users
 ---
 
 # Community

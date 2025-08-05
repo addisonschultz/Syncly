@@ -6,9 +6,9 @@ icon: hand-wave
 
 ### Welcome to the Syncly Documentation
 
-Welcome to the official documentation for [**Syncly**](links/community.md), your go-to calendar management solution for seamless scheduling and time organization.&#x20;
+Welcome to the official documentation for [**Syncly**](links/community.md), your go-to calendar management solution for seamless scheduling and time organization.
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Community</strong></td><td><a href=".gitbook/assets/image-3.png">image-3.png</a></td><td></td><td></td></tr><tr><td><strong>Homepage</strong></td><td><a href=".gitbook/assets/image-1.png">image-1.png</a></td><td></td><td></td></tr><tr><td><strong>Support</strong></td><td><a href=".gitbook/assets/image-2.png">image-2.png</a></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><h3><i class="fa-users">:users:</i></h3></td><td><h4>Community</h4></td><td>Join our community of over 10,000 and growing!</td><td></td><td></td><td></td></tr><tr><td><h3><i class="fa-leaf">:leaf:</i></h3></td><td><h4>Getting started</h4></td><td>Get started with tutorials and guides.</td><td></td><td></td><td></td></tr><tr><td><h3><i class="fa-life-ring">:life-ring:</i></h3></td><td><h4>Support</h4></td><td>Reach out to our support team to get help.</td><td></td><td></td><td></td></tr></tbody></table>
 
 #### What is Syncly?
 

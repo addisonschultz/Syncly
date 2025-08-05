@@ -1,5 +1,5 @@
 ---
-icon: suitcase-medical
+icon: life-ring
 ---
 
 # Support

@@ -1,5 +1,5 @@
 ---
-icon: bird
+icon: leaf
 ---
 
 # Getting Started
