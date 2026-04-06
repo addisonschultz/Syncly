@@ -1,10 +1,4 @@
----
-icon: leaf
----
-
-# Getting Started
-
-### Getting Started with Syncly
+# Quickstart
 
 Welcome to [Syncly](links/community.md)! This guide will walk you through the first steps to get you up and running quickly. Whether you're setting up your personal calendar or configuring Syncly for your team, follow these steps to begin using Syncly efficiently.
 

@@ -1,10 +1,4 @@
----
-icon: hand-wave
----
-
-# Welcome
-
-### Welcome to the Syncly Documentation
+# Syncly documentation
 
 Welcome to the official documentation for [**Syncly**](links/community.md), your go-to calendar management solution for seamless scheduling and time organization.
 

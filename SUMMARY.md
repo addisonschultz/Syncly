@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Welcome](README.md)
-* [Getting Started](getting-started.md)
+* [Syncly documentation](README.md)
+* [Quickstart](getting-started.md)
 
 ## Links
 

@@ -1,6 +1,2 @@
----
-icon: life-ring
----
-
 # Support
 
