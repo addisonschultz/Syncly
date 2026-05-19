@@ -3,6 +3,11 @@
 * [Syncly documentation](README.md)
 * [Quickstart](getting-started.md)
 
+## Guides
+
+* [Setting Up Team Calendars](guides/setting-up-team-calendars.md)
+* [Configuring Notifications](guides/configuring-notifications.md)
+
 ## calendar
 
 * [Overview](calendar/overview.md)
