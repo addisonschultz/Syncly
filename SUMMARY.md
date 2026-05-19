@@ -22,3 +22,4 @@
 ***
 
 * [Hidden Page](hidden-page.md)
+* [SKILL](skill.md)
