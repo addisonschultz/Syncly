@@ -1,4 +1,4 @@
-import type { User, Calendar, Event, NotificationPreferences } from "../types/index.js";
+import type { User, Calendar, Event, NotificationPreferences, Task } from "../types/index.js";
 
 export const users: User[] = [
   {
@@ -65,6 +65,28 @@ export const events: Event[] = [
     reminders: [{ minutes: 15 }],
     recurring: { frequency: "weekly" },
     createdAt: "2026-06-18T12:00:00Z",
+  },
+];
+
+export const tasks: Task[] = [
+  {
+    id: "task-1",
+    userId: "user-1",
+    calendarId: "cal-1",
+    title: "Book travel for conference",
+    notes: "Check flights to NYC for the Q3 summit",
+    dueAt: "2026-06-30T17:00:00Z",
+    completed: false,
+    createdAt: "2026-06-20T09:00:00Z",
+  },
+  {
+    id: "task-2",
+    userId: "user-1",
+    title: "Review sprint backlog",
+    dueAt: "2026-07-06T09:00:00Z",
+    completed: true,
+    completedAt: "2026-07-05T14:22:00Z",
+    createdAt: "2026-06-15T10:00:00Z",
   },
 ];
 

@@ -49,6 +49,18 @@ export interface Event {
   createdAt: string;
 }
 
+export interface Task {
+  id: string;
+  userId: string;
+  calendarId?: string;
+  title: string;
+  notes?: string;
+  dueAt?: string;
+  completed: boolean;
+  completedAt?: string;
+  createdAt: string;
+}
+
 export interface NotificationPreferences {
   userId: string;
   channels: {
