@@ -7,6 +7,7 @@
 
 * [Overview](calendar/overview.md)
 * [Events](calendar/events.md)
+* [Tasks](calendar/tasks.md)
 * [Sharing](calendar/sharing.md)
 
 ## Notifications

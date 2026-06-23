@@ -49,7 +49,7 @@ Stay connected on the go with Syncly’s mobile app:
 Once you’ve got the basics down, take advantage of Syncly’s advanced tools:
 
 * **Recurring Events**: Set up weekly or monthly events with customizable repetition rules.
-* **Task Management**: Use the integrated task feature to add and manage to-dos within your calendar.
+* **Task Management**: Use the integrated task feature to add and manage to-dos within your calendar. See [Tasks](calendar/tasks.md).
 * **Team Calendars**: Manage team-wide schedules and assign visibility and editing permissions.
 
 #### 7. **Get Help**
