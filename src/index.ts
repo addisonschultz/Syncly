@@ -6,6 +6,7 @@ import usersRoute from "./routes/users.js";
 import calendarsRoute from "./routes/calendars.js";
 import eventsRoute from "./routes/events.js";
 import notificationsRoute from "./routes/notifications.js";
+import tasksRoute from "./routes/tasks.js";
 
 const app = new Hono();
 
@@ -26,11 +27,13 @@ app.use("/users/*", authMiddleware);
 app.use("/calendars/*", authMiddleware);
 app.use("/events/*", authMiddleware);
 app.use("/notifications/*", authMiddleware);
+app.use("/tasks/*", authMiddleware);
 
 app.route("/users", usersRoute);
 app.route("/calendars", calendarsRoute);
 app.route("/events", eventsRoute);
 app.route("/notifications", notificationsRoute);
+app.route("/tasks", tasksRoute);
 
 // Mount calendar-scoped event listing under /calendars
 app.use("/calendars/:calendarId/events", authMiddleware);
