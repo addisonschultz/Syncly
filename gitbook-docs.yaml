@@ -1,0 +1,66 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Syncly Documentation
+  structure:
+    - type: section
+      key: section-1
+      title: Documentation
+      path: syncly-documentation
+      icon: book-open
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: 🇺🇸 English
+          path: en
+          default: true
+          content:
+            directory: ./syncly-documentation/en
+            language: en
+        - type: space
+          key: space-3
+          title: 🇫🇷 French
+          path: fr
+          content:
+            directory: ./syncly-documentation/fr
+            language: fr
+    - type: section
+      key: section-2
+      title: Changelog
+      path: changelog
+      icon: bars-staggered
+      children:
+        - type: space
+          key: space-2
+          title: Changelog
+          path: changelog
+          default: true
+          content:
+            directory: ./changelog/changelog
+    - type: section
+      key: section-3
+      title: Enterprise
+      path: enterprise
+      icon: lock
+      condition: visitor.claims.unsigned.isEnterprise === true
+      children:
+        - type: space
+          key: space-4
+          title: Enterprise
+          path: enterprise
+          default: true
+          content:
+            directory: ./enterprise/enterprise
+    - type: section
+      key: section-4
+      title: Guides
+      path: guides
+      icon: book-bookmark
+      children:
+        - type: space
+          key: space-5
+          title: Guides
+          path: guides
+          default: true
+          content:
+            directory: ./guides/guides
