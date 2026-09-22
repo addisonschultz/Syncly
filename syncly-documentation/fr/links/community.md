@@ -1,6 +1,0 @@
----
-icon: people
----
-
-# Community
-

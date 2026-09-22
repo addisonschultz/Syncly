@@ -3,3 +3,4 @@ GITBOOK_ASSISTANT_SKILL.md
 .mcp.json
 node_modules/
 dist/
+.DS_Store
