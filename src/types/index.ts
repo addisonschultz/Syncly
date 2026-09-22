@@ -74,3 +74,53 @@ export interface NotificationPreferences {
     end: string;
   };
 }
+
+// --- Availability & booking links ---
+
+export type Weekday = "mon" | "tue" | "wed" | "thu" | "fri" | "sat" | "sun";
+
+export interface AvailabilityWindow {
+  day: Weekday;
+  start: string; // "HH:MM" in the user's timezone
+  end: string; // "HH:MM" in the user's timezone
+}
+
+export interface AvailabilitySettings {
+  userId: string;
+  windows: AvailabilityWindow[];
+  bufferMinutes: number; // padding added before and after every booked slot
+  minNoticeMinutes: number; // earliest a slot may start, relative to now
+  maxDaysAhead: number; // how far into the future slots are offered
+  updatedAt: string;
+}
+
+export interface BusyBlock {
+  startAt: string;
+  endAt: string;
+  source: "event" | "booking" | "buffer";
+}
+
+export type BookingDuration = 15 | 30 | 45 | 60;
+
+export interface BookingLink {
+  id: string;
+  ownerId: string;
+  calendarId: string; // where confirmed bookings are written as events
+  slug: string; // public URL segment, unique per workspace
+  title: string;
+  description?: string;
+  durationMinutes: BookingDuration;
+  active: boolean;
+  createdAt: string;
+}
+
+export interface Booking {
+  id: string;
+  bookingLinkId: string;
+  eventId: string;
+  inviteeName: string;
+  inviteeEmail: string;
+  startAt: string;
+  endAt: string;
+  createdAt: string;
+}
