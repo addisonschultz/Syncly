@@ -42,7 +42,7 @@ Use this flow for most task operations:
 
 Tasks are always scoped to the current authenticated user.
 
-If you pass a `calendarId` when creating a task, you must already have access to that calendar.
+If you pass a `calendarId` when creating a task, you must already have access to that calendar. Tasks with a `dueAt` also appear on the calendar alongside [events](../events.md).
 
 ### Endpoints
 

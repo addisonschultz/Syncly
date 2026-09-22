@@ -40,7 +40,7 @@ Syncly sends notifications for the events that usually need a response.
 
 ### Preferences and control
 
-Manage notification settings in **Settings → Notifications**.
+Manage notification settings in **Settings → Notifications**. The full list of options is on the [Preferences](preferenecs.md) page.
 
 Preferences apply globally by default. You can then override them for specific projects.
 

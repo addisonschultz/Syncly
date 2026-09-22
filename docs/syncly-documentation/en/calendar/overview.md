@@ -68,7 +68,7 @@ Save the event, then drag and drop it later if plans change.
 
 ### External calendar sync
 
-Set up calendar sync in **Settings → Integrations → Calendar**.
+Set up calendar sync in **Settings → Integrations → Calendar**. For provider-specific steps, see the [Google Calendar and Outlook setup guide](../integrations/calendar-sync.md).
 
 Once connected, events from Syncly can appear in your external calendar, and external calendar events can appear in Syncly.
 
