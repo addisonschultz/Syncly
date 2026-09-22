@@ -1,6 +1,0 @@
----
-icon: suitcase-medical
----
-
-# Support
-
