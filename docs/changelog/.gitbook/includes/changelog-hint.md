@@ -3,5 +3,5 @@ title: Changelog Hint
 ---
 
 {% hint style="info" %}
-You can visit our code changelog at our [GitHub Repository](https://github.com/addisonschultz/Syncly) to view code-specific changes.
+View code-specific changes in the [GitHub repository](https://github.com/addisonschultz/Syncly).
 {% endhint %}

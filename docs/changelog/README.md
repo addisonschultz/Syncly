@@ -8,7 +8,7 @@
 
 _Version 2.7.0_
 
-### New
+### Added
 
 * Added workspace health dashboards for sync success rate, latency, and failed jobs.
 * Added webhook replay controls for failed outbound events.
@@ -29,7 +29,7 @@ _Version 2.7.0_
 
 _Version 2.6.0_
 
-### New
+### Added
 
 * Added field-level mapping templates for common CRM and help desk schemas.
 * Added CSV export for sync activity and error reports.
@@ -50,7 +50,7 @@ _Version 2.6.0_
 
 _Version 2.5.0_
 
-### New
+### Added
 
 * Added scheduled backfills for historical data imports.
 * Added environment labels to separate sandbox and production connections.
@@ -62,7 +62,7 @@ _Version 2.5.0_
 
 ### Deprecated
 
-* Deprecated legacy API key authentication for new integrations.
+* Deprecated legacy API key authentication for integrations.
 {% endupdate %}
 
 {% update date="2025-08-12" %}
@@ -70,7 +70,7 @@ _Version 2.5.0_
 
 _Version 2.4.0_
 
-### New
+### Added
 
 * Added Slack notifications for failed syncs and completed backfills.
 * Added bulk pause and resume controls for active pipelines.
@@ -91,7 +91,7 @@ _Version 2.4.0_
 
 _Version 2.3.0_
 
-### New
+### Added
 
 * Added support for custom field transforms using reusable mapping rules.
 * Added per-connection usage summaries in the admin dashboard.
@@ -112,14 +112,14 @@ _Version 2.3.0_
 
 _Version 2.2.0_
 
-### New
+### Added
 
-* Added record preview before enabling a new sync.
+* Added record preview before enabling a sync.
 * Added support for mapping one source field to multiple target fields.
 
 ### Updated
 
-* Improved step-by-step setup flow for new integrations.
+* Improved step-by-step setup flow for integrations.
 * Updated sync summaries to highlight skipped and retried records.
 
 ### Fixed
@@ -133,7 +133,7 @@ _Version 2.2.0_
 
 _Version 2.1.0_
 
-### New
+### Added
 
 * Added reusable sync templates for Salesforce, HubSpot, and Zendesk.
 * Added email alerts for connection failures and disabled credentials.
@@ -150,13 +150,13 @@ _Version 2.1.0_
 {% endupdate %}
 
 {% update date="2024-11-27" %}
-## New sync engine and native CRM integrations
+## Sync engine and native CRM integrations
 
 _Version 2.0.0_
 
-### New
+### Added
 
-* Launched the new Syncly sync engine with support for multi-step workflows.
+* Launched the Syncly sync engine with support for multi-step workflows.
 * Added the first set of native integrations for Salesforce and HubSpot.
 
 ### Updated
@@ -166,7 +166,7 @@ _Version 2.0.0_
 
 ### Deprecated
 
-* Deprecated the beta pipeline editor in favor of the new workflow builder.
+* Deprecated the beta pipeline editor in favor of the workflow builder.
 {% endupdate %}
 
 {% update date="2024-10-16" %}
@@ -174,7 +174,7 @@ _Version 2.0.0_
 
 _Version 1.0.0_
 
-### New
+### Added
 
 * Released the first public version of Syncly.
 * Added core record syncing for contacts, companies, and deals.
