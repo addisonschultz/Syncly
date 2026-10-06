@@ -14,6 +14,8 @@ Open slots are your weekly hours minus everything already on your calendars. Syn
 
 ### Profile fields
 
+The profile has four fields:
+
 | Field | Description | Default | Limits |
 | --- | --- | --- | --- |
 | `windows` | Weekly hours you accept bookings. Each entry is `{ day, start, end }`. | Monday to Friday, `09:00`–`17:00` | `day` is `mon` to `sun`. Times are `HH:MM`, 24-hour. `start` must be before `end`. |
