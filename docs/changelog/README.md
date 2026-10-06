@@ -3,6 +3,19 @@
 {% include ".gitbook/includes/changelog-hint.md" %}
 
 {% updates format="full" %}
+{% update date="2026-10-06" %}
+## Availability and booking links
+
+_Version 2.8.0_
+
+### Added
+
+* Added availability profiles to set weekly hours, buffers, minimum notice, and how far ahead people can book.
+* Added booking links. Anyone with the link can book an open slot without a Syncly account. Each booking becomes an event on the calendar you choose.
+* Added free/busy to see when a teammate is busy. It shows times only, never event details.
+* Added the `/users/me/availability`, `/users/:id/free-busy`, `/booking-links`, and `/book/:slug` endpoints.
+{% endupdate %}
+
 {% update date="2026-04-06" %}
 ## Workspace health dashboards and webhook replay
 
