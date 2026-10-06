@@ -1,4 +1,13 @@
-import type { User, Calendar, Event, NotificationPreferences, Task } from "../types/index.js";
+import type {
+  User,
+  Calendar,
+  Event,
+  NotificationPreferences,
+  Task,
+  AvailabilitySettings,
+  BookingLink,
+  Booking,
+} from "../types/index.js";
 
 export const users: User[] = [
   {
@@ -103,3 +112,36 @@ export const notificationPreferences: NotificationPreferences[] = [
     defaultReminderMinutes: 30,
   },
 ];
+
+export const availabilitySettings: AvailabilitySettings[] = [
+  {
+    userId: "user-1",
+    windows: [
+      { day: "mon", start: "09:00", end: "17:00" },
+      { day: "tue", start: "09:00", end: "17:00" },
+      { day: "wed", start: "09:00", end: "17:00" },
+      { day: "thu", start: "09:00", end: "17:00" },
+      { day: "fri", start: "09:00", end: "13:00" },
+    ],
+    bufferMinutes: 10,
+    minNoticeMinutes: 120,
+    maxDaysAhead: 30,
+    updatedAt: "2026-09-01T08:00:00Z",
+  },
+];
+
+export const bookingLinks: BookingLink[] = [
+  {
+    id: "link-1",
+    ownerId: "user-1",
+    calendarId: "cal-1",
+    slug: "alex-intro",
+    title: "Intro chat with Alex",
+    description: "A quick 30-minute call to talk through what you're working on.",
+    durationMinutes: 30,
+    active: true,
+    createdAt: "2026-09-01T08:05:00Z",
+  },
+];
+
+export const bookings: Booking[] = [];
