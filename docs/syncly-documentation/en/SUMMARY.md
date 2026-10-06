@@ -9,6 +9,9 @@
 * [Events](calendar/events.md)
 * [Tasks](calendar/tasks.md)
 * [Sharing](calendar/sharing.md)
+* [Availability](calendar/availability.md)
+* [Booking links](calendar/booking-links.md)
+* [Free/busy](calendar/free-busy.md)
 
 ## Notifications
 

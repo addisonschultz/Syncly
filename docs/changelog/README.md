@@ -3,6 +3,22 @@
 {% include ".gitbook/includes/changelog-hint.md" %}
 
 {% updates format="full" %}
+{% update date="2026-10-06" %}
+## Booking links, availability profiles, and free/busy
+
+_Version 2.8.0_
+
+### Added
+
+* Added booking links. Publish a page at `/book/<slug>` where anyone can pick an open time and book it, with each link choosing its own duration and destination calendar.
+* Added availability profiles with weekly hours, a buffer, a minimum notice period, and a booking horizon.
+* Added free/busy lookups so workspace members can see each other's busy times without event details.
+
+### Updated
+
+* Confirmed bookings are written to the destination calendar as normal events with both parties as attendees.
+{% endupdate %}
+
 {% update date="2026-04-06" %}
 ## Workspace health dashboards and webhook replay
 
