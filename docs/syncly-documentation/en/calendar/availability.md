@@ -8,7 +8,7 @@ description: Set the weekly hours, buffers, and notice period that control when 
 
 Your availability profile sets when people can book time with you through a [booking link](booking-links.md).
 
-Each user has one profile. Syncly creates it with default values the first time you read it.
+You have one profile. Syncly creates it with default values the first time you read it.
 
 Open slots are your weekly hours minus everything already on your calendars. Syncly also applies your buffer, minimum notice, and booking horizon.
 
