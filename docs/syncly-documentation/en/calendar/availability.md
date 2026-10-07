@@ -18,7 +18,7 @@ The profile has four fields:
 | ------------------ | --------------------------------------------------------------------------------------------------------------- | ---------------------- | -------------------------------------------- |
 | `windows`          | The weekly hours you accept bookings. Each window is `{ "day", "start", "end" }`.                               | Monday–Friday, 09:00–17:00 | `start` must be before `end`. No overnight windows. |
 | `bufferMinutes`    | Padding Syncly adds before and after every event when it works out open slots.                                  | `0`                    | Whole number, `0` or more                    |
-| `minNoticeMinutes` | The shortest notice you accept. Slots that start sooner than this from now aren't offered.                      | `60`                   | Whole number, `0` or more                    |
+| `minNoticeMinutes` | The shortest notice you accept. Syncly doesn't offer slots that start sooner than this from now.                | `60`                   | Whole number, `0` or more                    |
 | `maxDaysAhead`     | How many days into the future Syncly offers slots.                                                              | `60`                   | Whole number, `0`–`365`                      |
 
 ### Weekly windows
