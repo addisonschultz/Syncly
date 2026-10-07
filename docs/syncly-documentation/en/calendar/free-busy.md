@@ -19,7 +19,7 @@ Busy blocks come from every calendar your teammate owns or is a member of. Syncl
 Free/busy differs from [booking link](booking-links.md) slots in two ways:
 
 * Syncly doesn't add your teammate's buffer. Buffers only apply to booking links.
-* Free/busy doesn't use your teammate's weekly [availability](availability.md) windows. Time outside working hours shows as free unless an event covers it.
+* Free/busy doesn't use your teammate's weekly [availability](availability.md) windows. Time outside those windows shows as free unless an event covers it.
 
 ### Endpoints
 
