@@ -3,6 +3,18 @@
 {% include ".gitbook/includes/changelog-hint.md" %}
 
 {% updates format="full" %}
+{% update date="2026-10-06" %}
+## Booking links and availability
+
+_Version 2.8.0_
+
+### Added
+
+* Added [booking links](https://gitbook-webinars.gitbook.io/syncly-documentation/calendar/booking-links) so people outside your workspace can book time with you without an account.
+* Added [availability profiles](https://gitbook-webinars.gitbook.io/syncly-documentation/calendar/availability) to set weekly booking hours, buffers, minimum notice, and how far ahead people can book.
+* Added [free/busy](https://gitbook-webinars.gitbook.io/syncly-documentation/calendar/free-busy) so you can see when a teammate is busy without seeing their event details.
+{% endupdate %}
+
 {% update date="2026-04-06" %}
 ## Workspace health dashboards and webhook replay
 
